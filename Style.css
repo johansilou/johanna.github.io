@@ -2,10 +2,50 @@ h1{
 	background-color: #F0F8FF;
 	margin: 20px 
 	font-size: 100px;
-	color: #9400D3;
+	color: pink;
 	font-family: "Futura";
 }
-div {
+
+#first {
 	font-family: "Futura";
-	
+	color: pink;
+}
+
+#second {
+	font-family: "Futura";
+	color: pink;
+}
+
+#third {
+	font-family: "Futura";
+	color: pink;
+}
+#fourth {
+	font-family: "Futura";
+	color: pink;
+}
+
+#first:hover {
+	font-family: "Futura";
+	color: red;
+}
+
+#second:hover {
+	font-family: "Futura";
+	color: red;
+	}
+
+#third:hover {
+	font-family: "Futura";
+	color: red;
+	}
+
+#fourth:hover {
+	font-family: "Futura";
+	color: red;
+	}
+
+
+html {
+	background-color: #8FBC8F;
 }
