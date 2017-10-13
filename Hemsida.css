@@ -62,14 +62,16 @@ thead {
 }
 
 
-	.dropbtn {
+
+.dropbtn {
 	font-family: futura;
     background-color: white;
-    color: pink;
+    color: gold;
     padding: 20px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    
 }
 
 .dropdown {
@@ -84,14 +86,7 @@ thead {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-.dropdown a:hover .dropbtn {
-    background-color: yellow;
-}
-.dropdown-content a:hover {background-color: #f1f1f1}
 
-.dropdown a:hover .dropdown-content {
-    display: block;
-}
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -99,6 +94,26 @@ thead {
     text-decoration: none;
     display: block;
 }
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
 
 #filmbildergifar {
 	margin-right: 10%;
