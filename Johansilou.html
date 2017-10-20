@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Johansi</title>
+	<link rel="stylesheet" formats="text/css" href="jonathan.css">
+</head>
+
+<body>
+
+<section class="titlemenu">
+<div id="meny" class="dropdown">
+  <button class="dropbtn">Menu</button>
+  <div class="dropdown-content">
+    <a href="index.html">About Me</a>
+    <a href="CV.html">Cirriculum Vitae</a>
+    <a href="portfolio.html">Portfolio</a>
+ </div>
+</div>
+
+
+<div id="johanna">
+	<h1>JOHANNA</h1>
+</div>
+</section>
+
+<section class="images">
+<div class="marrang"></div>
+<div class="peace"></div>
+<div class="sallad"></div>
+<div class="beauvoir"></div>
+<div class="disco"></div>
+<div class="mars"></div>
+<div class="greensea"></div>
+<div class="wave"></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="listan" >
+	<button class="knapp" onclick="Idea()"><strong>MY SUPER POWERS:</strong>
+	<h1 id="hej"></h1>
+</div>
+<script>
+
+//var powerladies = [
+//{	name:"Johanna",
+	//superpower: "TALKING"
+//},
+//{name:"Moa",
+	//superpower: "LAUGHING"
+//},
+//{name:"Louisa",
+	//superpower: "COFFEE-MAKING"
+//},
+//{name:"Alina",
+	//superpower: "CODING"
+//},
+//{name:"Elsa",
+//	superpower: "DRAWING"
+//},
+//{name:"Soraya",
+	//superpower: "SLEEPING"
+//}
+//];
+
+var idea = []
+idea[0] = "TALKING";
+idea[1] = "LAUGHING TO JONATHAN'S JOKES";
+idea[2] = "SLEEPING";
+idea[3] = "CODING";
+idea[4] = "RELAXING";
+idea[5] = "PARTYING";
+idea[6] = "SINGING";
+idea[7] = "CRYING";
+function Idea() {
+    var randomIdea = Math.floor(Math.random()*(idea.length));
+    document.getElementById('hej').innerHTML = idea[randomIdea];
+}
+
+//console.log("Length" + powerladies.length);
+//for(var i = 0; i < powerladies.length; i++) {
+//listan.innerHTML+="<div> <strong> Power lady: </strong> " + powerladies[i].name  +  " <strong>Superpower: </strong>" + powerladies[i].superpower  + "</div>";}
+</script>
+</body>
+</html>
