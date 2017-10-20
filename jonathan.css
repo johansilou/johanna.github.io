@@ -59,6 +59,11 @@ margin-top: 20px;
 
 .images{ 
 	padding:10em;
+	background-color: pink;
+}
+
+.titlemenu{
+	background-color: white;
 }
 
 #listan {
