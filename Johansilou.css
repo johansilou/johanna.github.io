@@ -1,29 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    background-position: left center;
+}
+
+
 h1{
-	color: gold;
+	color: black;
 	font-family: "Futura";
-	font-size: 40px;
+	font-size: 16px;
+    margin: 0;
+    margin-left: 20px;
+    line-height: 50px;
+   
 }
 
-#johanna {
+#background{
+	background: url("bluesea.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 95vh;
+}
+
+#menyrad {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "futura";
+    font-size: 12px;
+    height: 50px;
+
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.flex {
+    margin-top: 30px;
+    height: 50px;
+}
+
+li {
+    display: inline-block;
+    margin: 0;
+    line-height: 25px;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #D7F9F5;}
+
+
+a {
+    background-position: left center;
+    background-repeat: no-repeat;}
+
+/*.sections a:hover {
+	opacity: 0.5;}*/
+
+/*#firstsection a {
+	padding-top: 60px;
+    position: absolute;}*/
+
+.pil a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 4px solid black;
+	border-bottom: 4px solid black;
+	margin-top: 650px;
+	-webkit- transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;}
+
+
+
+/*#video-background {
+/*  making the video fullscreen  */
+ /* position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+
+} */
+
+/*#meny{
 display:inline;
 float: left;
-margin-left: 400px;
 
+margin}*/
+
+
+.aboutme{
+font-family: futura;
+margin-bottom: 80px;
+margin-top: 50px;
 }
 
-#meny{
-display:inline;
-float: left;
-margin-left: 17px;
-margin-top: 20px;
+.images{ 
+padding:2em;
+margin-top: 40px;
+margin-left: 40px;
+margin-right: 40px;
+background-color: white;}
 
-}
-.titlemenu {
-	background-color: white;
-	 
-}
 
-.dropbtn {
+
+/*.dropbtn {
 	font-family: "Futura";
     background-color: aliceblue;
     color: gold;
@@ -57,13 +161,7 @@ margin-top: 20px;
     display: block;}
 
 .dropdown:hover .dropbtn {
-    background-color: aliceblue;}
-
-
-.images{ 
-	padding:10em;
-	background-color: pink;}
-
+    background-color: aliceblue;}*/
 
 .marrang {
         width: 150px;
@@ -73,7 +171,6 @@ margin-top: 20px;
         display: inline-block;}
  .marrang:hover {
         background: url("marrang.png") no-repeat;}
-
 .peace{
         width: 150px;
         height: 150px;
@@ -82,25 +179,22 @@ margin-top: 20px;
         display: inline-block;}
  .peace:hover {
         background: url("peace.png") no-repeat;}
-
 .sallad {
         width: 150px;
         height: 150px;
         background: url("HI.png") no-repeat;
-        padding:1em;
+       	padding:1em;
         display: inline-block;}
  .sallad:hover {
-        background: url("cauli.png") no-repeat;}
-
+        background: url("romanian.png") no-repeat;}
 .beauvoir {
         width: 150px;
         height: 150px;
         background: url("HI.png") no-repeat;
-        padding:1em;
+      	padding:1em;
         display: inline-block;}
  .beauvoir:hover {
         background: url("beauvoir.png") no-repeat;}
-
 .disco {
         width: 150px;
         height: 150px;
@@ -109,7 +203,6 @@ margin-top: 20px;
         display: inline-block;}
  .disco:hover {
         background: url("discokula.png") no-repeat;}
-
 .mars {
         width: 150px;
         height: 150px;
@@ -118,7 +211,6 @@ margin-top: 20px;
         display: inline-block;}
  .mars:hover {
         background: url("mars.png") no-repeat;}
-
 .greensea {
         width: 150px;
         height: 150px;
@@ -127,7 +219,6 @@ margin-top: 20px;
         display: inline-block;}
  .greensea:hover {
         background: url("greensea.png") no-repeat;}
-
 .wave {
         width: 150px;
         height: 150px;
@@ -138,12 +229,12 @@ margin-top: 20px;
         background: url("Wave.png") no-repeat;}
 
 
+#ikoner{
+margin-left:40px;
+}
 
 .knapp {
-    background-color: black; /* Green */
-    border: none;
-    color: black;
-    padding: 16px 32px;
+ padding: 15px; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -152,20 +243,85 @@ margin-top: 20px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-}
-
-.knapp {
-    background-color: white; 
+	background-color: white; 
     color: black; 
-    border: 10px solid pink;
+    border: 10px solid gold;
+    width: 400px;
+    height: 150px;
 }
 
 .knapp:hover {
     background-color: aliceblue;
-    color: black;
-}
+    color: black;}
+
 #listan {
-		margin-left: 500px;
 		font-family: "Futura";
-		padding:5em;
-	}
+		display: block;
+		}
+
+
+
+#CV {
+   padding:3em;
+}
+
+#flower{
+    background: url("flowers.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 170vh;
+}
+
+#sol{
+    background: url("sol.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 110vh;
+}
+
+#projekt{
+    font-family: "Futura";
+    font-size: 18px;
+    line-height: 150px;
+}
+
+/*.pilprojekt a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+    margin-top: 650px;
+    -webkit- transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;}*/
+
+
+#telefon{
+    background: url("telefon.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 110vh;
+}
+
+#contacttext{
+    font-family: "Futura";
+    font-size:16px;
+    padding:10em;
+margin-left: 500px;
+
+}
+
+
+
+
+
+
+
+
