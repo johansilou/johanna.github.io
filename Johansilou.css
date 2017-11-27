@@ -90,7 +90,19 @@ a {
 	transform: rotate(-45deg);
 	box-sizing: border-box;}
 
-
+/*.pil1 a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 4px solid black;
+	border-bottom: 4px solid black;
+	margin-top: 600px;
+	-webkit- transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;}*/
 
 /*#video-background {
 /*  making the video fullscreen  */
@@ -120,7 +132,7 @@ margin-top: 50px;
 
 .images{ 
 padding:2em;
-margin-top: 40px;
+margin-top: 10px;
 margin-left: 40px;
 margin-right: 40px;
 background-color: white;}
@@ -247,7 +259,7 @@ margin-left:40px;
     color: black; 
     border: 10px solid gold;
     width: 400px;
-    height: 150px;
+    height: 130px;
 }
 
 .knapp:hover {
@@ -287,20 +299,30 @@ margin-left:40px;
     line-height: 150px;
 }
 
-/*.pilprojekt a span {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 24px;
-    height: 24px;
-    margin-left: -12px;
-    border-left: 4px solid black;
-    border-bottom: 4px solid black;
-    margin-top: 650px;
-    -webkit- transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    box-sizing: border-box;}*/
+.code {
+		width: 180px;
+        height: 250px;
+        background: url("code.png") no-repeat;
+        padding:3em;
+        display: inline-block;
+        margin-left: 40px;}
+ .code:hover {
+        background: url("codecover.png") no-repeat;
+}
 
+.seven{
+		width: 180px;
+        height: 250px;
+        background: url("24seven.png") no-repeat;
+        padding:3em;
+        display: inline-block;}
+.seven:hover {
+        background: url("sevencover.png") no-repeat;
+}
+
+#projecticons{
+	margin-left: 50px;
+}
 
 #telefon{
     background: url("telefon.png");
